@@ -11,6 +11,7 @@ body {
 
 #top-panel,
 #bot-panel {
+  min-height: 2em;
   font-size: 2em;
   grid-column: span 4;
   text-align: end;
