@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+}
+
+.calculator {
+  width: 100vh;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+#top-panel,
+#bot-panel {
+  font-size: 2em;
+  grid-column: span 4;
+  text-align: end;
+}
